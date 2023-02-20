@@ -43,7 +43,7 @@ public class InscriberMenu extends AbstractContainerMenu {
 	}
 
 	public InscriberMenu(int id, Inventory playerInventory, Container container) {
-		super(WuxiaMenuTypes.INTROSPECTION_MENU.get(), id);
+		super(WuxiaMenuTypes.INSCRIBER_MENU.get(), id);
 
 		this.container = container;
 
